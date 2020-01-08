@@ -7,17 +7,21 @@
   
   <title>post | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="这是我的第一个博客页面">
+  <meta name="description" content="这是我的第一个博客页面  Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。  mac下搭建hexo+github博客 在安装环境都已经配置完成的前提下git，node.js  安装hexo 终端执行如下命令1sudo npm install -g hexo 初始化，终端cd到一个指定的目录（我在~&#x2F;D">
 <meta property="og:type" content="article">
 <meta property="og:title" content="post">
 <meta property="og:url" content="http://yoursite.com/2020/01/08/post/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="这是我的第一个博客页面">
+<meta property="og:description" content="这是我的第一个博客页面  Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。  mac下搭建hexo+github博客 在安装环境都已经配置完成的前提下git，node.js  安装hexo 终端执行如下命令1sudo npm install -g hexo 初始化，终端cd到一个指定的目录（我在~&#x2F;D">
 <meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://user-gold-cdn.xitu.io/2020/1/8/16f83e9862251654?w=768&h=437&f=png&s=47897">
+<meta property="og:image" content="https://user-gold-cdn.xitu.io/2020/1/8/16f83e9e5d7e71ff?w=742&h=378&f=png&s=39591">
+<meta property="og:image" content="https://user-gold-cdn.xitu.io/2020/1/8/16f840c5b078db12?w=246&h=81&f=png&s=5709">
 <meta property="article:published_time" content="2020-01-08T06:37:27.000Z">
-<meta property="article:modified_time" content="2020-01-08T06:38:07.757Z">
+<meta property="article:modified_time" content="2020-01-08T07:33:24.222Z">
 <meta property="article:author" content="MavisYang">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://user-gold-cdn.xitu.io/2020/1/8/16f83e9862251654?w=768&h=437&f=png&s=47897">
   
     <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -89,6 +93,77 @@
     <div class="article-entry" itemprop="articleBody">
       
         <p>这是我的第一个博客页面</p>
+<blockquote>
+<p>Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。</p>
+</blockquote>
+<h2 id="mac下搭建hexo-github博客"><a href="#mac下搭建hexo-github博客" class="headerlink" title="mac下搭建hexo+github博客"></a>mac下搭建hexo+github博客</h2><blockquote>
+<p>在安装环境都已经配置完成的前提下<code>git</code>，<code>node.js</code></p>
+</blockquote>
+<h3 id="安装hexo"><a href="#安装hexo" class="headerlink" title="安装hexo"></a>安装hexo</h3><ul>
+<li>终端执行如下命令<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo npm install -g hexo</span><br></pre></td></tr></table></figure></li>
+<li>初始化，终端cd到一个指定的目录（我在~/Documents/目录下）执行如下命令<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo init &lt;folder&gt;</span><br></pre></td></tr></table></figure></li>
+<li>终端cd到<folder>目录下，安装npm<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">cd &lt;folder&gt;</span><br><span class="line">npm install</span><br></pre></td></tr></table></figure></li>
+<li>开启hexo服务,就可以在本地（本地预览地址<code>http://localhost:4000</code>）预览博客主页了<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo s  # 或者hexo server</span><br></pre></td></tr></table></figure>
+
+</li>
+</ul>
+<h3 id="Github-Pages设置"><a href="#Github-Pages设置" class="headerlink" title="Github Pages设置"></a>Github Pages设置</h3><ol>
+<li>在gitHub中创建一个项目，并且将本地安装的项目上传到gitHub中<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">git init</span><br><span class="line">git add README.md</span><br><span class="line">git commit -m &quot;first commit&quot;</span><br><span class="line">git remote add origin https:&#x2F;&#x2F;github.com&#x2F;MavisYang&#x2F;hexo-blog.git</span><br><span class="line">git push -u origin master</span><br></pre></td></tr></table></figure></li>
+<li>在setting中开启GitHub Pages</li>
+</ol>
+<ul>
+<li>选中master,显示<code>Your site is published at https://mavisyang.github.io/</code>成功（如图所示）<br><img src="https://user-gold-cdn.xitu.io/2020/1/8/16f83e9862251654?w=768&h=437&f=png&s=47897" alt="GitHub Pages前"></li>
+</ul>
+<p><img src="https://user-gold-cdn.xitu.io/2020/1/8/16f83e9e5d7e71ff?w=742&h=378&f=png&s=39591" alt="GitHub Pages后"></p>
+<h3 id="关联已有的github"><a href="#关联已有的github" class="headerlink" title="关联已有的github"></a>关联已有的github</h3><ul>
+<li>打开hexo创建文件夹下的_config.yml配置文件<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">eploy:</span><br><span class="line">  type: git</span><br><span class="line">  repository: https:&#x2F;&#x2F;github.com&#x2F;MavisYang&#x2F;mavisyang.github.io.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure></li>
+<li>在hexo文件夹目录下执行（生成）<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo g # 或者hexo generate</span><br></pre></td></tr></table></figure></li>
+<li>如果报错，则执行<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo --save</span><br></pre></td></tr></table></figure></li>
+<li>再执行命令（部署到git上）<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo d</span><br></pre></td></tr></table></figure></li>
+<li>如果报错，则执行<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure></li>
+<li>然后再执行hexo g和hexo d</li>
+</ul>
+<h3 id="添加博客"><a href="#添加博客" class="headerlink" title="添加博客"></a>添加博客</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">hexo new &#39;post&#39;  # 写博客</span><br><span class="line">hexo clean       # 清除缓存文件</span><br><span class="line">hexo g           # 生成新的文件</span><br><span class="line">hexo d           # 同步部署到github端</span><br></pre></td></tr></table></figure>
+<p><img src="https://user-gold-cdn.xitu.io/2020/1/8/16f840c5b078db12?w=246&h=81&f=png&s=5709" alt="hexo new"></p>
+<h3 id="完成"><a href="#完成" class="headerlink" title="完成"></a>完成</h3><p><a href="https://mavisyang.github.io/archives/" target="_blank" rel="noopener">博客地址</a><br><a href="https://mavisyang.github.io/2020/01/08/hello-world/" target="_blank" rel="noopener">hello-world</a></p>
+<h3 id="命令"><a href="#命令" class="headerlink" title="命令"></a>命令</h3><ul>
+<li><p>hexo g -w</p>
+</li>
+<li><p>hexo list route</p>
+</li>
+<li><p>hexo list post</p>
+</li>
+<li><p>npm install hexo -g #安装Hexo</p>
+</li>
+<li><p>npm update hexo -g #升级</p>
+</li>
+<li><p>hexo init #初始化博客</p>
+</li>
+<li><p>命令简写</p>
+</li>
+<li><p>hexo n “我的博客” == hexo new “我的博客” #新建文章</p>
+</li>
+<li><p>hexo g == hexo generate #生成</p>
+</li>
+<li><p>hexo s == hexo server #启动服务预览</p>
+</li>
+<li><p>hexo d == hexo deploy #部署</p>
+</li>
+<li><p>hexo server #Hexo会监视文件变动并自动更新，无须重启服务器</p>
+</li>
+<li><p>hexo server -s #静态模式</p>
+</li>
+<li><p>hexo server -p 5000 #更改端口</p>
+</li>
+<li><p>hexo server -i 192.168.1.1 #自定义 IP</p>
+</li>
+<li><p>hexo clean #清除缓存，若是网页正常情况下可以忽略这条命令</p>
+</li>
+</ul>
+<h3 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h3><ul>
+<li><a href="https://www.jianshu.com/p/49c8168c7418" target="_blank" rel="noopener">mac os下搭建hexo+github博客</a></li>
+<li><a href="https://linghucong.js.org/2016/04/15/2016-04-15-hexo-github-pages-blog/" target="_blank" rel="noopener">Hexo + Github Pages搭建个人独立博客</a></li>
+</ul>
 
       
     </div>
