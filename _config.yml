@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: mavisY的博客
 subtitle: ''
-description: ''
-keywords:
-author: MavisYang
-language: en
+description: '欢迎来到我的博客世界～'
+keywords: 博客
+author: MavisY
+language: zh-Hans
 timezone: ''
 
 # URL
@@ -93,7 +93,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -101,3 +101,10 @@ deploy:
   type: git
   repository: https://github.com/MavisYang/mavisyang.github.io.git
   branch: master
+
+#菜单
+menu:
+  home: /
+  archives: /archives
+  tags: /tags
+  categories: /categories
