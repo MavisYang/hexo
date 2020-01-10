@@ -5,7 +5,7 @@
   
 
 
-<html class="theme-next mist use-motion" lang="zh-Hans">
+<html class="theme-next pisces use-motion" lang="zh-Hans">
 <head>
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -84,6 +84,8 @@
 
 
 
+  <link rel="alternate" href="/true" title="mavisY的博客" type="application/atom+xml" />
+
 
 
 
@@ -110,7 +112,7 @@
   var NexT = window.NexT || {};
   var CONFIG = {
     root: '/',
-    scheme: 'Mist',
+    scheme: 'Pisces',
     sidebar: {"position":"left","display":"post","offset":12,"offset_float":12,"b2t":false,"scrollpercent":false,"onmobile":false},
     fancybox: true,
     tabs: true,
@@ -239,6 +241,16 @@
           </a>
         </li>
       
+        
+        <li class="menu-item menu-item-commonweal">
+          <a href="/404/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-heartbeat"></i> <br />
+            
+            公益404
+          </a>
+        </li>
+      
 
       
     </ul>
@@ -272,6 +284,144 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/01/10/hexo/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="MavisY">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="https://upload.jianshu.io/users/upload_avatars/9076911/fc50e405-7d85-4d1e-9fb8-86429e47d540.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/80/h/80/format/webp">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="mavisY的博客">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2020/01/10/hexo/" itemprop="url">hexo搭建自己的博客</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-01-10T09:57:03+08:00">
+                2020-01-10
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+          
+Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。
+
+mac下搭建hexo+github博客
+在安装环境都已经配置完成的前提下git，node.js
+
+安装hexo
+终端执行如下命令1sudo npm 
+          ...
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2020/01/10/hexo/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/01/08/post/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -291,7 +441,7 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2020/01/08/post/" itemprop="url">hexo搭建自己的博客</a></h1>
+                <a class="post-title-link" href="/2020/01/08/post/" itemprop="url">主页面</a></h1>
         
 
         <div class="post-meta">
@@ -343,82 +493,23 @@
       
         
           
-            <blockquote>
-<p>Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。</p>
-</blockquote>
-<h2 id="mac下搭建hexo-github博客"><a href="#mac下搭建hexo-github博客" class="headerlink" title="mac下搭建hexo+github博客"></a>mac下搭建hexo+github博客</h2><blockquote>
-<p>在安装环境都已经配置完成的前提下<code>git</code>，<code>node.js</code></p>
-</blockquote>
-<h3 id="安装hexo"><a href="#安装hexo" class="headerlink" title="安装hexo"></a>安装hexo</h3><ul>
-<li>终端执行如下命令<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo npm install -g hexo</span><br></pre></td></tr></table></figure></li>
-<li>初始化，终端cd到一个指定的目录（我在~/Documents/目录下）执行如下命令<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo init &lt;folder&gt;</span><br></pre></td></tr></table></figure></li>
-<li>终端cd到<folder>目录下，安装npm<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">cd &lt;folder&gt;</span><br><span class="line">npm install</span><br></pre></td></tr></table></figure></li>
-<li>开启hexo服务,就可以在本地（本地预览地址<code>http://localhost:4000</code>）预览博客主页了<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo s  # 或者hexo server</span><br></pre></td></tr></table></figure>
-
-</li>
-</ul>
-<h3 id="Github-Pages设置"><a href="#Github-Pages设置" class="headerlink" title="Github Pages设置"></a>Github Pages设置</h3><ol>
-<li>在gitHub中创建一个项目，并且将本地安装的项目上传到gitHub中<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">git init</span><br><span class="line">git add README.md</span><br><span class="line">git commit -m &quot;first commit&quot;</span><br><span class="line">git remote add origin https:&#x2F;&#x2F;github.com&#x2F;MavisYang&#x2F;hexo-blog.git</span><br><span class="line">git push -u origin master</span><br></pre></td></tr></table></figure></li>
-<li>在setting中开启GitHub Pages</li>
-</ol>
-<ul>
-<li>选中master,显示<code>Your site is published at https://mavisyang.github.io/</code>成功（如图所示）<br><img src="https://user-gold-cdn.xitu.io/2020/1/8/16f83e9862251654?w=768&h=437&f=png&s=47897" alt="GitHub Pages前"></li>
-</ul>
-<p><img src="https://user-gold-cdn.xitu.io/2020/1/8/16f83e9e5d7e71ff?w=742&h=378&f=png&s=39591" alt="GitHub Pages后"></p>
-<h3 id="关联已有的github"><a href="#关联已有的github" class="headerlink" title="关联已有的github"></a>关联已有的github</h3><ul>
-<li>打开hexo创建文件夹下的_config.yml配置文件<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">eploy:</span><br><span class="line">  type: git</span><br><span class="line">  repository: https:&#x2F;&#x2F;github.com&#x2F;MavisYang&#x2F;mavisyang.github.io.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure></li>
-<li>在hexo文件夹目录下执行（生成）<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo g # 或者hexo generate</span><br></pre></td></tr></table></figure></li>
-<li>如果报错，则执行<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo --save</span><br></pre></td></tr></table></figure></li>
-<li>再执行命令（部署到git上）<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo d</span><br></pre></td></tr></table></figure></li>
-<li>如果报错，则执行<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure></li>
-<li>然后再执行hexo g和hexo d</li>
-</ul>
-<h3 id="添加博客"><a href="#添加博客" class="headerlink" title="添加博客"></a>添加博客</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">hexo new &#39;post&#39;  # 写博客</span><br><span class="line">hexo clean       # 清除缓存文件</span><br><span class="line">hexo g           # 生成新的文件</span><br><span class="line">hexo d           # 同步部署到github端</span><br></pre></td></tr></table></figure>
-<p><img src="https://user-gold-cdn.xitu.io/2020/1/8/16f840c5b078db12?w=246&h=81&f=png&s=5709" alt="hexo new"></p>
-<h3 id="完成"><a href="#完成" class="headerlink" title="完成"></a>完成</h3><p><a href="https://mavisyang.github.io/archives/" target="_blank" rel="noopener">博客地址</a><br><a href="https://mavisyang.github.io/2020/01/08/hello-world/" target="_blank" rel="noopener">hello-world</a></p>
-<h3 id="命令"><a href="#命令" class="headerlink" title="命令"></a>命令</h3><ul>
-<li><p>hexo g -w</p>
-</li>
-<li><p>hexo list route</p>
-</li>
-<li><p>hexo list post</p>
-</li>
-<li><p>npm install hexo -g #安装Hexo</p>
-</li>
-<li><p>npm update hexo -g #升级</p>
-</li>
-<li><p>hexo init #初始化博客</p>
-</li>
-<li><p>命令简写</p>
-</li>
-<li><p>hexo n “我的博客” == hexo new “我的博客” #新建文章</p>
-</li>
-<li><p>hexo g == hexo generate #生成</p>
-</li>
-<li><p>hexo s == hexo server #启动服务预览</p>
-</li>
-<li><p>hexo d == hexo deploy #部署</p>
-</li>
-<li><p>hexo server #Hexo会监视文件变动并自动更新，无须重启服务器</p>
-</li>
-<li><p>hexo server -s #静态模式</p>
-</li>
-<li><p>hexo server -p 5000 #更改端口</p>
-</li>
-<li><p>hexo server -i 192.168.1.1 #自定义 IP</p>
-</li>
-<li><p>hexo clean #清除缓存，若是网页正常情况下可以忽略这条命令</p>
-</li>
-</ul>
-<h3 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h3><ul>
-<li><a href="https://www.jianshu.com/p/49c8168c7418" target="_blank" rel="noopener">mac os下搭建hexo+github博客</a></li>
-<li><a href="https://linghucong.js.org/2016/04/15/2016-04-15-hexo-github-pages-blog/" target="_blank" rel="noopener">Hexo + Github Pages搭建个人独立博客</a></li>
-</ul>
-
           
+          
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2020/01/08/post/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
+
+    <div>
+      
+    </div>
+
     
     
     
@@ -533,24 +624,23 @@
       
         
           
-            <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
-          
+          Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in 
+          ...
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2020/01/08/hello-world/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
+
+    <div>
+      
+    </div>
+
     
     
     
@@ -627,7 +717,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/archives/">
-                <span class="site-state-item-count">2</span>
+                <span class="site-state-item-count">3</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
@@ -640,7 +730,7 @@
             
             <div class="site-state-item site-state-tags">
               <a href="/tags/index.html">
-                <span class="site-state-item-count">1</span>
+                <span class="site-state-item-count">2</span>
                 <span class="site-state-item-name">标签</span>
               </a>
             </div>
@@ -649,8 +739,61 @@
         </nav>
 
         
+          <div class="feed-link motion-element">
+            <a href="/true" rel="alternate">
+              <i class="fa fa-rss"></i>
+              RSS
+            </a>
+          </div>
+        
 
         <div class="links-of-author motion-element">
+          
+            
+              <span class="links-of-author-item">
+                <a href="https://github.com/MavisYang/mavisyang.github.io" target="_blank" title="GitHub">
+                  
+                    <i class="fa fa-fw fa-github"></i>
+                  
+                    
+                      GitHub
+                    
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="https://juejin.im/user/5c4aac4b6fb9a049d05e1958/posts" target="_blank" title="掘金">
+                  
+                    <i class="fa fa-fw fa-globe"></i>
+                  
+                    
+                      掘金
+                    
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="https://segmentfault.com/u/18334757882/notes" target="_blank" title="SegmentFault">
+                  
+                    <i class="fa fa-fw fa-globe"></i>
+                  
+                    
+                      SegmentFault
+                    
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="https://www.jianshu.com/u/93b458a90c33" target="_blank" title="简书">
+                  
+                    <i class="fa fa-fw fa-globe"></i>
+                  
+                    
+                      简书
+                    
+                </a>
+              </span>
+            
           
         </div>
 
@@ -681,7 +824,7 @@
       <div class="footer-inner">
         <div class="copyright" >
   
-  &copy; 
+  &copy;  2015 - 
   <span itemprop="copyrightYear">2020</span>
   <span class="with-love">
     <i class="fa fa-heart"></i>
@@ -697,12 +840,32 @@
 <div class="theme-info">
   主题 -
   <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next" target="_blank" rel="noopener">
-    NexT.Mist
+    NexT.Pisces
   </a>
 </div>
 
 
         
+<div class="busuanzi-count">
+  <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+  
+    <span class="site-uv">
+      <i class="fa fa-user"></i>总访客
+      <span class="busuanzi-value" id="busuanzi_value_site_uv"></span>
+      人
+    </span>
+  
+
+  
+    <span class="site-pv">
+      <i class="fa fa-eye"></i>总访问量
+      <span class="busuanzi-value" id="busuanzi_value_site_pv"></span>
+      次
+    </span>
+  
+</div>
+
 
         
       </div>
@@ -746,10 +909,12 @@
 
 
 
+  
+
 
 
   
-  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  <script type="text/javascript" src="//cdn.jsdelivr.net/jquery/2.1.3/jquery.min.js"></script>
 
   
   <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
@@ -769,6 +934,9 @@
   
   <script type="text/javascript" src="/lib/canvas-nest/canvas-nest.min.js"></script>
 
+  
+  <script type="text/javascript" src="/lib/canvas-ribbon/canvas-ribbon.js"></script>
+
 
   
 
@@ -781,6 +949,13 @@
 
   
   
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.2"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.2"></script>
+
+
 
   
     <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.2"></script>
