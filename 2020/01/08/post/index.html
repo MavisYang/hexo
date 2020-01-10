@@ -5,7 +5,7 @@
   
 
 
-<html class="theme-next mist use-motion" lang="zh-Hans">
+<html class="theme-next pisces use-motion" lang="zh-Hans">
 <head>
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -78,11 +78,13 @@
 <link href="/css/main.css?v=5.1.2" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="hexo," />
+  <meta name="keywords" content="Hexo, NexT" />
 
 
 
 
+
+  <link rel="alternate" href="/true" title="mavisY的博客" type="application/atom+xml" />
 
 
 
@@ -94,21 +96,17 @@
 
 
 
-<meta name="description" content="Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。  mac下搭建hexo+github博客 在安装环境都已经配置完成的前提下git，node.js  安装hexo 终端执行如下命令1sudo npm install -g hexo 初始化，终端cd到一个指定的目录（我在~&#x2F;Documents&#x2F;目录下">
+<meta name="description" content="欢迎来到我的博客世界～">
 <meta property="og:type" content="article">
-<meta property="og:title" content="hexo搭建自己的博客">
+<meta property="og:title" content="主页面">
 <meta property="og:url" content="http://yoursite.com/2020/01/08/post/index.html">
 <meta property="og:site_name" content="mavisY的博客">
-<meta property="og:description" content="Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。  mac下搭建hexo+github博客 在安装环境都已经配置完成的前提下git，node.js  安装hexo 终端执行如下命令1sudo npm install -g hexo 初始化，终端cd到一个指定的目录（我在~&#x2F;Documents&#x2F;目录下">
-<meta property="og:image" content="https://user-gold-cdn.xitu.io/2020/1/8/16f83e9862251654?w=768&h=437&f=png&s=47897">
-<meta property="og:image" content="https://user-gold-cdn.xitu.io/2020/1/8/16f83e9e5d7e71ff?w=742&h=378&f=png&s=39591">
-<meta property="og:image" content="https://user-gold-cdn.xitu.io/2020/1/8/16f840c5b078db12?w=246&h=81&f=png&s=5709">
+<meta property="og:description" content="欢迎来到我的博客世界～">
 <meta property="article:published_time" content="2020-01-08T06:37:27.000Z">
-<meta property="article:modified_time" content="2020-01-09T08:30:01.362Z">
+<meta property="article:modified_time" content="2020-01-10T02:18:50.646Z">
 <meta property="article:author" content="MavisY">
-<meta property="article:tag" content="hexo">
+<meta property="article:tag" content="博客">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://user-gold-cdn.xitu.io/2020/1/8/16f83e9862251654?w=768&h=437&f=png&s=47897">
 
 
 
@@ -116,7 +114,7 @@
   var NexT = window.NexT || {};
   var CONFIG = {
     root: '/',
-    scheme: 'Mist',
+    scheme: 'Pisces',
     sidebar: {"position":"left","display":"post","offset":12,"offset_float":12,"b2t":false,"scrollpercent":false,"onmobile":false},
     fancybox: true,
     tabs: true,
@@ -143,7 +141,7 @@
 
 
 
-  <title>hexo搭建自己的博客 | mavisY的博客</title>
+  <title>主页面 | mavisY的博客</title>
   
 
 
@@ -293,7 +291,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">hexo搭建自己的博客</h1>
+          <h1 class="post-title" itemprop="name headline">主页面</h1>
         
 
         <div class="post-meta">
@@ -325,6 +323,11 @@
           
 
           
+            <span class="post-meta-divider">|</span>
+            <span class="page-pv"><i class="fa fa-file-o"></i>
+            <span class="busuanzi-value" id="busuanzi_value_page_pv" ></span>
+            </span>
+          
 
           
 
@@ -343,80 +346,20 @@
       
 
       
-        <blockquote>
-<p>Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。</p>
-</blockquote>
-<h2 id="mac下搭建hexo-github博客"><a href="#mac下搭建hexo-github博客" class="headerlink" title="mac下搭建hexo+github博客"></a>mac下搭建hexo+github博客</h2><blockquote>
-<p>在安装环境都已经配置完成的前提下<code>git</code>，<code>node.js</code></p>
-</blockquote>
-<h3 id="安装hexo"><a href="#安装hexo" class="headerlink" title="安装hexo"></a>安装hexo</h3><ul>
-<li>终端执行如下命令<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo npm install -g hexo</span><br></pre></td></tr></table></figure></li>
-<li>初始化，终端cd到一个指定的目录（我在~/Documents/目录下）执行如下命令<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo init &lt;folder&gt;</span><br></pre></td></tr></table></figure></li>
-<li>终端cd到<folder>目录下，安装npm<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">cd &lt;folder&gt;</span><br><span class="line">npm install</span><br></pre></td></tr></table></figure></li>
-<li>开启hexo服务,就可以在本地（本地预览地址<code>http://localhost:4000</code>）预览博客主页了<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo s  # 或者hexo server</span><br></pre></td></tr></table></figure>
-
-</li>
-</ul>
-<h3 id="Github-Pages设置"><a href="#Github-Pages设置" class="headerlink" title="Github Pages设置"></a>Github Pages设置</h3><ol>
-<li>在gitHub中创建一个项目，并且将本地安装的项目上传到gitHub中<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">git init</span><br><span class="line">git add README.md</span><br><span class="line">git commit -m &quot;first commit&quot;</span><br><span class="line">git remote add origin https:&#x2F;&#x2F;github.com&#x2F;MavisYang&#x2F;hexo-blog.git</span><br><span class="line">git push -u origin master</span><br></pre></td></tr></table></figure></li>
-<li>在setting中开启GitHub Pages</li>
-</ol>
-<ul>
-<li>选中master,显示<code>Your site is published at https://mavisyang.github.io/</code>成功（如图所示）<br><img src="https://user-gold-cdn.xitu.io/2020/1/8/16f83e9862251654?w=768&h=437&f=png&s=47897" alt="GitHub Pages前"></li>
-</ul>
-<p><img src="https://user-gold-cdn.xitu.io/2020/1/8/16f83e9e5d7e71ff?w=742&h=378&f=png&s=39591" alt="GitHub Pages后"></p>
-<h3 id="关联已有的github"><a href="#关联已有的github" class="headerlink" title="关联已有的github"></a>关联已有的github</h3><ul>
-<li>打开hexo创建文件夹下的_config.yml配置文件<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">eploy:</span><br><span class="line">  type: git</span><br><span class="line">  repository: https:&#x2F;&#x2F;github.com&#x2F;MavisYang&#x2F;mavisyang.github.io.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure></li>
-<li>在hexo文件夹目录下执行（生成）<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo g # 或者hexo generate</span><br></pre></td></tr></table></figure></li>
-<li>如果报错，则执行<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo --save</span><br></pre></td></tr></table></figure></li>
-<li>再执行命令（部署到git上）<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo d</span><br></pre></td></tr></table></figure></li>
-<li>如果报错，则执行<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure></li>
-<li>然后再执行hexo g和hexo d</li>
-</ul>
-<h3 id="添加博客"><a href="#添加博客" class="headerlink" title="添加博客"></a>添加博客</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">hexo new &#39;post&#39;  # 写博客</span><br><span class="line">hexo clean       # 清除缓存文件</span><br><span class="line">hexo g           # 生成新的文件</span><br><span class="line">hexo d           # 同步部署到github端</span><br></pre></td></tr></table></figure>
-<p><img src="https://user-gold-cdn.xitu.io/2020/1/8/16f840c5b078db12?w=246&h=81&f=png&s=5709" alt="hexo new"></p>
-<h3 id="完成"><a href="#完成" class="headerlink" title="完成"></a>完成</h3><p><a href="https://mavisyang.github.io/archives/" target="_blank" rel="noopener">博客地址</a><br><a href="https://mavisyang.github.io/2020/01/08/hello-world/" target="_blank" rel="noopener">hello-world</a></p>
-<h3 id="命令"><a href="#命令" class="headerlink" title="命令"></a>命令</h3><ul>
-<li><p>hexo g -w</p>
-</li>
-<li><p>hexo list route</p>
-</li>
-<li><p>hexo list post</p>
-</li>
-<li><p>npm install hexo -g #安装Hexo</p>
-</li>
-<li><p>npm update hexo -g #升级</p>
-</li>
-<li><p>hexo init #初始化博客</p>
-</li>
-<li><p>命令简写</p>
-</li>
-<li><p>hexo n “我的博客” == hexo new “我的博客” #新建文章</p>
-</li>
-<li><p>hexo g == hexo generate #生成</p>
-</li>
-<li><p>hexo s == hexo server #启动服务预览</p>
-</li>
-<li><p>hexo d == hexo deploy #部署</p>
-</li>
-<li><p>hexo server #Hexo会监视文件变动并自动更新，无须重启服务器</p>
-</li>
-<li><p>hexo server -s #静态模式</p>
-</li>
-<li><p>hexo server -p 5000 #更改端口</p>
-</li>
-<li><p>hexo server -i 192.168.1.1 #自定义 IP</p>
-</li>
-<li><p>hexo clean #清除缓存，若是网页正常情况下可以忽略这条命令</p>
-</li>
-</ul>
-<h3 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h3><ul>
-<li><a href="https://www.jianshu.com/p/49c8168c7418" target="_blank" rel="noopener">mac os下搭建hexo+github博客</a></li>
-<li><a href="https://linghucong.js.org/2016/04/15/2016-04-15-hexo-github-pages-blog/" target="_blank" rel="noopener">Hexo + Github Pages搭建个人独立博客</a></li>
-</ul>
-
+        
       
     </div>
+
+    <div>
+      
+      <div>
+
+    <div style="text-align:center;color: #ccc;font-size:14px;">-------------本文结束<i class="fa fa-paw"></i>感谢您的阅读-------------</div>
+
+</div>
+      
+    </div>
+
     
     
     
@@ -428,12 +371,6 @@
     
 
     <footer class="post-footer">
-      
-        <div class="post-tags">
-          
-            <a href="/tags/hexo/" rel="tag"># hexo</a>
-          
-        </div>
       
 
       
@@ -453,6 +390,10 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2020/01/10/hexo/" rel="prev" title="hexo搭建自己的博客">
+                hexo搭建自己的博客 <i class="fa fa-chevron-right"></i>
+              </a>
             
           </div>
         </div>
@@ -504,17 +445,8 @@
       
 
       
-        <ul class="sidebar-nav motion-element">
-          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
-            文章目录
-          </li>
-          <li class="sidebar-nav-overview" data-target="site-overview">
-            站点概览
-          </li>
-        </ul>
-      
 
-      <section class="site-overview sidebar-panel">
+      <section class="site-overview sidebar-panel sidebar-panel-active">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="https://upload.jianshu.io/users/upload_avatars/9076911/fc50e405-7d85-4d1e-9fb8-86429e47d540.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/80/h/80/format/webp"
@@ -529,7 +461,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/archives/">
-                <span class="site-state-item-count">2</span>
+                <span class="site-state-item-count">3</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
@@ -542,7 +474,7 @@
             
             <div class="site-state-item site-state-tags">
               <a href="/tags/index.html">
-                <span class="site-state-item-count">1</span>
+                <span class="site-state-item-count">2</span>
                 <span class="site-state-item-name">标签</span>
               </a>
             </div>
@@ -550,6 +482,13 @@
 
         </nav>
 
+        
+          <div class="feed-link motion-element">
+            <a href="/true" rel="alternate">
+              <i class="fa fa-rss"></i>
+              RSS
+            </a>
+          </div>
         
 
         <div class="links-of-author motion-element">
@@ -567,22 +506,6 @@
 
       </section>
 
-      
-      <!--noindex-->
-        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
-          <div class="post-toc">
-
-            
-              
-            
-
-            
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#mac下搭建hexo-github博客"><span class="nav-number">1.</span> <span class="nav-text">mac下搭建hexo+github博客</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#安装hexo"><span class="nav-number">1.1.</span> <span class="nav-text">安装hexo</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Github-Pages设置"><span class="nav-number">1.2.</span> <span class="nav-text">Github Pages设置</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#关联已有的github"><span class="nav-number">1.3.</span> <span class="nav-text">关联已有的github</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#添加博客"><span class="nav-number">1.4.</span> <span class="nav-text">添加博客</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#完成"><span class="nav-number">1.5.</span> <span class="nav-text">完成</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#命令"><span class="nav-number">1.6.</span> <span class="nav-text">命令</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#参考"><span class="nav-number">1.7.</span> <span class="nav-text">参考</span></a></li></ol></li></ol></div>
-            
-
-          </div>
-        </section>
-      <!--/noindex-->
       
 
       
@@ -615,12 +538,32 @@
 <div class="theme-info">
   主题 -
   <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next" target="_blank" rel="noopener">
-    NexT.Mist
+    NexT.Pisces
   </a>
 </div>
 
 
         
+<div class="busuanzi-count">
+  <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+  
+    <span class="site-uv">
+      <i class="fa fa-user"></i>总访客
+      <span class="busuanzi-value" id="busuanzi_value_site_uv"></span>
+      人
+    </span>
+  
+
+  
+    <span class="site-pv">
+      <i class="fa fa-eye"></i>总访问量
+      <span class="busuanzi-value" id="busuanzi_value_site_pv"></span>
+      次
+    </span>
+  
+</div>
+
 
         
       </div>
@@ -699,6 +642,13 @@
 
   
   
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.2"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.2"></script>
+
+
 
   
   <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.2"></script>
